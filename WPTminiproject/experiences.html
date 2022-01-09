@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us </title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-xl navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Incredible !ndia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="experiences.html">Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex ">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success rounded-3 " type="submit">Search</button>
+                </form>
+
+                <div class="mx-2 bt btn-success p-2 text-center rounded-3 " style="cursor: pointer;"
+                    data-bs-toggle="modal" data-bs-target="#loginBackdrop">
+                    Log In</div>
+                <div class="mx-2 bt btn-warning p-2 text-center rounded-3  " style="cursor: pointer;"
+                    data-bs-toggle="modal" data-bs-target="#signupBackdrop">Sign Up
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!--  login Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="loginBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="loginBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="loginBackdropLabel">Login </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+
+
+
+
+                        <div class="form-group mb-2">
+
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label mb-2" for="exampleCheck1">Keep me logged in </label>
+                        </div>
+                        <button type="submit" class="btn btn-success me-3">Login</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--  sign up Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="signupBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="signupBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="signupBackdropLabel">Register with us </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+
+                        <div class="form-group mb-2">
+
+                            <label for="exampleInput"> Your Good Name </label>
+                            <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp"
+                                placeholder="Enter your good name ">
+
+                        </div>
+
+
+                        <div class="form-group mb-2">
+
+                            <label for="exampleInput"> Mobile Number </label>
+                            <input type="number" class="form-control" id="exampleInputName" aria-describedby="emailHelp"
+                                placeholder="Enter your mobile number ">
+
+
+
+
+                        </div>
+
+
+                        <div class="form-group mb-2">
+                            <label for="InputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
+                                placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+
+                        <div class="form-group mb-2">
+
+                            <label for="exampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control " id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+
+
+                        <button type="submit " class="btn btn-success">I'm Ready to Explore </button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="div" style="height: 360px ; width: 100%;">
+        <img class="img-fluid" src="/images/exp.jpeg" alt="" style="width: 100%;height: 100% ; object-fit: fill;">
+    </div>
+
+    <!-- Images and content  -->
+    <!-- Indian Heritage -->
+    <hr class="feature-divider">
+
+    <div class="ps-4 pe-4">
+    <div class="row feature">
+        <div class="col-md-7 pt-2 pb-2 ">
+            <h2 class="feature-heading"> <span style="text-decoration: none; border-bottom:2px solid red; ">"Indian
+                    Heritage"</span>
+                <span class="text-muted">Aspire to Inspire</span>
+            </h2>
+            <p>One of the oldest civilisations in the world, India is a mosaic of multicultural experiences. With a rich
+                heritage and myriad attractions, the country is among the most popular tourist destinations in the
+                world. It covers an area of 32, 87,263 sq. km, extending from the snow-covered Himalayan heights to the
+                tropical rain forests of the south. As the 7th largest country in the world, India stands apart from the
+                rest of Asia, marked off as it is by mountains and the sea, which give the country a distinct
+                geographical entity. Fringed by the Great Himalayas in the north, it stretches southwards and at the
+                Tropic of Cancer, tapers off into the Indian Ocean between the Bay of Bengal on the east and the Arabian
+                Sea on the west. As you travel the expanse of the country, you are greeted by diverse nuances of
+                cuisines, faiths, arts, crafts, music, nature, lands, tribes, history and adventure sports.</p>
+        </div>
+
+        <div class="col-md-5 pt-2 pb-2 ml-3 mr-3">
+            <img src="images/heri1.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+
+    <!-- Nature and Wildlife -->
+    <hr class="feature-divider">
+    <div class="row feature">
+        <div class="col-md-7 order-md-2 pt-2 pb-2">
+            <h2 class="feature-heading"><span style="text-decoration: none; border-bottom:2px solid red; ">"Nature and
+                    Wildlife"</span>
+                <span class="text-muted">Refresh Your Mind and Soul.</span>
+            </h2>
+            <p>From hauntingly beautiful snowy escapades to lush forests and hills of rolling green, from the endless
+                golden beaches to the sapphire and emerald lakes embedded in the landscape, the natural beauty of the
+                Indian subcontinent is unparalleled. The unspoilt and unexplored terrains of the country leave one in
+                awe of their breathtaking splendour. Starting from the snow-capped Himalayas in the north, traversing
+                the deserts of Rajasthan, crossing the lush forests of Madhya Pradesh and then sailing in the expansive
+                backwaters of Kerala, and finally diving into the pristine waters of the Andaman and Nicobar Islands,
+                the journey is full of adventurous highlands and serene plains and lowlands. A land boasting a diverse
+                variety of flora and fauna, India is also home to many national parks, wildlife sanctuaries, tiger
+                reserves and biosphere reserves, which offer enchanting wildlife sightings.</p>
+        </div>
+
+        <div class="col-md-5 order-md-1 pt-2 pb-2">
+            <img src="images/natu.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+
+
+    <!-- Adventures -->
+    <hr class="feature-divider">
+    <div class="row feature ">
+        <div class="col-md-7 pt-2 pb-2">
+            <h2 class="feature-heading"> <span
+                    style="text-decoration: none; border-bottom:2px solid red; ">"Adventures"</span>
+                <span class="text-muted">Make the Impossible</span>
+            </h2>
+            <p>Spirit of Adventure/ Allure of AdventureScale the heights of thrill, or plummet to the depths of
+                excitement or if you're truly daring, survey gorgeous lands and waters, while suspended in the sky. All
+                this and more awaits you as you explore land, water and sky adventures in the country. From trekking,
+                mountain biking and mountaineering in the secluded snow-capped Himalayas to surfing, rafting, scuba
+                diving and snorkelling, there are a multitude of options for thrill seekers.</p>
+        </div>
+
+        <div class="col-md-5 pt-2 pb-2">
+            <img src="images/adv2.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+</div>
+    <hr>
+
+
+
+    <!-- User Feedback -->
+    <section class="users-feedback text-center card-text pb-2">
+        <h1><span style="text-decoration: none; border-bottom:2px solid red;">TESTIMONIALS</span></h1>
+        <h5 class="text-muted pb-2"><i>See what people are saying</i></h5>
+        <div class="container">
+            <div class="row mt-3 d-flex  justify-content-center align-content-center pb-2 pt-0 pl-2 pr-2 ">
+                <div class=" card col-md-4 pt-3 pb-3">
+                    <div class="user-review text-center ">
+                        <p>“
+                            Fabulous Trip to India visiting top spots we'd always wanted to see.
+
+                            We have just returned from a fabulous trip to Amritsar and the Gold Triangle. Our guide,
+                            Satendra, was very well-informed, funny and made sure everything ran smoothly.I would
+                            definitely recommend Incredible India team and consider using them in the future. ” </p>
+                        <h5>Miranda Huntley </h5>
+                        <small>Los Angeles, Unites States</small>
+                    </div>
+                </div>
+
+                <div class="card col-md-4 pt-3 pb-3">
+                    <div class="user-review text-center ">
+                        <p>“
+                            Fabulous trip - Really professional tour guide, very well planned whose knowledge was shared
+                            in an interesting and thoughtful way. City hotels were fantastic but in context of price
+                            paid and Indian infrastructure was ok. Historic sights are incredible and to be able to see
+                            so many in 8 days makes the lengthy bus journeys worth while” </p>
+                        <h5>Sheenagh de Silva </h5>
+                        <small>London, UK</small>
+                    </div>
+                </div>
+
+                <div class="card col-md-4 pt-3 pb-3">
+                    <div class="user-review text-center ">
+                        <p>"From booking to tour end, excellent costumer service. From booking to end if trip this
+                            Incredible India Team are attentive to the needs of individual travellers. A fantastic trip
+                            with informative and caring representative. Very pleased we had local guides in each place
+                            visited who were enthusiastic about their local area. "</p>
+                        <h5>Aaksh Raman</h5>
+                        <small>Kerala, India</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer  -->
+    <footer class="py-3 my-4 bg-light">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2021 Incredible !ndia, Inc</p>
+    </footer>
+
+
+
+
+</body>
